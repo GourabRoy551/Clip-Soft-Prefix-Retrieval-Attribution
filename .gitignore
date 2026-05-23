@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Local environments
+.env
+.venv/
+venv/
+env/
+
+# Dataset caches and large model artifacts
+data/
+cache/
+*.pt
+*.pth
+*.ckpt
+
+# Keep curated output artifacts, but ignore ad-hoc run logs.
+outputs/**/*.log
+outputs/**/*.tmp

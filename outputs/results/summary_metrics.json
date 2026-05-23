@@ -1,0 +1,53 @@
+{
+  "flickr30k_retrieval": {
+    "protocol": "1 caption per image, 1000 Flickr30k test images",
+    "vanilla_clip": {
+      "i2t_R@1": 69.6,
+      "i2t_R@5": 90.5,
+      "i2t_R@10": 95.0,
+      "t2i_R@1": 67.2,
+      "t2i_R@5": 89.0,
+      "t2i_R@10": 93.8
+    },
+    "single_template": {
+      "i2t_R@1": 71.0,
+      "i2t_R@5": 91.6,
+      "i2t_R@10": 95.6,
+      "t2i_R@1": 67.5,
+      "t2i_R@5": 88.9,
+      "t2i_R@10": 93.7
+    },
+    "ensemble_5": {
+      "i2t_R@1": 72.2,
+      "i2t_R@5": 92.3,
+      "i2t_R@10": 95.5,
+      "t2i_R@1": 68.2,
+      "t2i_R@5": 89.0,
+      "t2i_R@10": 94.0
+    },
+    "prefix_k32": {
+      "i2t_R@1": 69.3,
+      "i2t_R@5": 90.4,
+      "i2t_R@10": 95.2,
+      "t2i_R@1": 67.3,
+      "t2i_R@5": 89.9,
+      "t2i_R@10": 94.4
+    }
+  },
+  "attribution": {
+    "n_eval": 500,
+    "mean_entropy_vanilla": 2.0697,
+    "mean_entropy_prefix": 1.7032,
+    "delta_mean_entropy": -0.3665,
+    "mean_max_token_fraction_vanilla": 0.2848,
+    "mean_max_token_fraction_prefix": 0.4056,
+    "wilcoxon_p_value": "<0.0001",
+    "cohens_d": -0.714
+  },
+  "transfer": {
+    "protocol": "500 MS-COCO validation images, zero-shot transfer from Flickr30k prefix",
+    "prefix_i2t_R@1_gap_pp": -15.7,
+    "vanilla_i2t_R@1_gap_pp": -11.2,
+    "ensemble_i2t_R@1_gap_pp": -13.6
+  }
+}

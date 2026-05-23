@@ -1,0 +1,5 @@
+condition,i2t_R@1,i2t_R@5,i2t_R@10,t2i_R@1,t2i_R@5,t2i_R@10
+Vanilla CLIP (raw captions),69.60,90.50,95.00,67.20,89.00,93.80
+Single template,71.00,91.60,95.60,67.50,88.90,93.70
+Ensemble (5 templates),72.20,92.30,95.50,68.20,89.00,94.00
+Prefix k=32,69.30,90.40,95.20,67.30,89.90,94.40

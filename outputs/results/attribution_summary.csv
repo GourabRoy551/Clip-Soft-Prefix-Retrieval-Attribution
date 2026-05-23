@@ -1,0 +1,12 @@
+metric,value
+mean_entropy_vanilla,2.0697
+mean_entropy_prefix,1.7032
+delta_mean_entropy,-0.3665
+median_entropy_vanilla,2.0891
+median_entropy_prefix,1.6706
+delta_median_entropy,-0.4185
+mean_max_token_fraction_vanilla,0.2848
+mean_max_token_fraction_prefix,0.4056
+delta_max_token_fraction,0.1209
+wilcoxon_p_value,<0.0001
+cohens_d,-0.7140

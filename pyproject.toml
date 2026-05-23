@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clip-soft-prefix-retrieval-attribution"
+version = "0.1.0"
+description = "Soft-prefix prompt learning and token attribution analysis for CLIP image-text retrieval."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Gourab Roy" }
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

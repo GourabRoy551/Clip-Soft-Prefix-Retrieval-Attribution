@@ -1,0 +1,19 @@
+condition,metric,flickr30k,coco,gap_pp
+Vanilla CLIP,i2t_R@1,69.60,58.40,-11.20
+Vanilla CLIP,i2t_R@5,90.50,88.60,-1.90
+Vanilla CLIP,i2t_R@10,95.00,94.20,-0.80
+Vanilla CLIP,t2i_R@1,67.20,50.80,-16.40
+Vanilla CLIP,t2i_R@5,89.00,81.40,-7.60
+Vanilla CLIP,t2i_R@10,93.80,93.40,-0.40
+Ensemble (5),i2t_R@1,72.20,58.60,-13.60
+Ensemble (5),i2t_R@5,92.30,88.60,-3.70
+Ensemble (5),i2t_R@10,95.50,94.80,-0.70
+Ensemble (5),t2i_R@1,68.20,53.00,-15.20
+Ensemble (5),t2i_R@5,89.00,83.00,-6.00
+Ensemble (5),t2i_R@10,94.00,92.80,-1.20
+Prefix k=32,i2t_R@1,69.30,53.60,-15.70
+Prefix k=32,i2t_R@5,90.40,85.60,-4.80
+Prefix k=32,i2t_R@10,95.20,95.40,0.20
+Prefix k=32,t2i_R@1,67.30,50.60,-16.70
+Prefix k=32,t2i_R@5,89.90,82.60,-7.30
+Prefix k=32,t2i_R@10,94.40,92.80,-1.60

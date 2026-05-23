@@ -1,0 +1,62 @@
+﻿[
+    {
+        "file":  "outputs/figures/00_sanity_check_coco_cats.png",
+        "bytes":  198498
+    },
+    {
+        "file":  "outputs/figures/01_flickr30k_sample_grid.png",
+        "bytes":  1219091
+    },
+    {
+        "file":  "outputs/figures/02_vanilla_clip_baseline.png",
+        "bytes":  25117
+    },
+    {
+        "file":  "outputs/figures/03_phrasing_sensitivity_examples.png",
+        "bytes":  328014
+    },
+    {
+        "file":  "outputs/figures/04_phrasing_similarity_heatmap.png",
+        "bytes":  46669
+    },
+    {
+        "file":  "outputs/figures/05_handcrafted_baselines.png",
+        "bytes":  32524
+    },
+    {
+        "file":  "outputs/figures/06_training_curves_k16.png",
+        "bytes":  49444
+    },
+    {
+        "file":  "outputs/figures/07_prefix_length_ablation.png",
+        "bytes":  26573
+    },
+    {
+        "file":  "outputs/figures/08_flickr_retrieval_comparison.png",
+        "bytes":  36060
+    },
+    {
+        "file":  "outputs/figures/09_prefix_vs_ensemble_delta.png",
+        "bytes":  29750
+    },
+    {
+        "file":  "outputs/figures/10_token_attribution_examples.png",
+        "bytes":  670476
+    },
+    {
+        "file":  "outputs/figures/11_attribution_entropy.png",
+        "bytes":  90800
+    },
+    {
+        "file":  "outputs/figures/12_top_attributed_tokens.png",
+        "bytes":  74135
+    },
+    {
+        "file":  "outputs/figures/13_flickr_vs_coco_transfer.png",
+        "bytes":  73630
+    },
+    {
+        "file":  "outputs/figures/14_transfer_gap.png",
+        "bytes":  35371
+    }
+]

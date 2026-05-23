@@ -1,0 +1,13 @@
+open_clip_torch==2.24.0
+datasets==2.19.0
+torch>=2.1.0
+torchvision>=0.16.0
+ftfy
+regex
+tqdm
+numpy
+pillow
+requests
+matplotlib
+seaborn
+scipy
