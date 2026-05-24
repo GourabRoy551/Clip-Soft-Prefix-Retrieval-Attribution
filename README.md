@@ -1,16 +1,11 @@
 # CLIP Soft Prefix Retrieval Attribution
 
-Repository name suggestion: `clip-soft-prefix-retrieval-attribution`
-
 This project studies prompt learning for CLIP-based image-text retrieval. Instead of fine-tuning CLIP, it freezes both the image encoder and the text encoder, then learns a small set of continuous prompt vectors, or a soft prefix, that is prepended to every text input.
 
 The central question is not only whether the learned prefix improves retrieval, but also what it changes inside CLIP's image-text similarity behavior:
 
 > Does a learned soft prefix change which caption tokens drive CLIP similarity?
 
-The project is based on the individual project notebook:
-
-`notebooks/ipcvdl2_Individual_Project_Gourab_Roy.ipynb`
 
 ## Project Summary
 
